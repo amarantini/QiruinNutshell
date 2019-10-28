@@ -3,6 +3,8 @@
 <head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
  <link rel="stylesheet" type="text/css" href="index.css">
+ <meta name="QiruinNutshell" content="width=device-width, initial-scale=1.0">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  <meta charset="utf-8"> 
  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -12,30 +14,32 @@
 <body> 	
 
   <!--Navigation bar section-->
-  <nav class="navbar navbar-default navbar-expand-sm fixed-top navbar-scroll" style="background-color: #557A95;">
+  <nav class="navbar bg-darm navbar-dark navbar-expand-sm fixed-top navbar-scroll navbar-normal" style="background-color: #557A95;">
+        
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="totoro.PNG" width="35" height="45" class="d-inline-block align-top" alt="">
       </a>
 
-      <button class="navbar-toggler border-0 collapsed" type="button" data-toggle="collapse" data-target="#navbar_main" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler border-0 collapsed" type="button" data-toggle="collapse" data-target="#navbar_main" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div id="navbar_main" class="navbar-collapse collapse">
         <ul class="navbar-nav">
           <li class="navbar-item mr-5 active">
-            <a href="template.html" class="nav-link" style="color:white; font-size:125%">Home</a>
+            <a href="index.html" class="nav-link" style="color:white; font-size:125%">Home</a>
           </li>
           <li class="navbar-item  mr-5">
-            <a href="#" class="nav-link" style="color:white; font-size:125%">Projects</a>
+            <a href="#about" class="nav-link" style="color:white; font-size:125%">About</a>
           </li>
           <li class="navbar-item  mr-5">
-            <a href="#" class="nav-link" style="color:white; font-size:125%">Dreams</a>
+            <a href="#experience" class="nav-link" style="color:white; font-size:125%">Experience</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
 
   <!--Page Banner section--> 
   <section class="banner">
@@ -125,8 +129,42 @@
 
 
 <!--Skills section-->
+  <section id="skill">
+  <div class="container my-5">
+  <div class="skillbar">
+    <!--Tittle-->
+      <div class="text-center">
+        <h1 class="section-title">Skills</h1>
+      </div>
 
-
+    <!--Skillbars-->
+    <p>HTML</p>
+    <div class="container">
+      <div class="skills html">20%</div>
+    </div>
+    <p>CSS</p>
+    <div class="container">
+      <div class="skills css">20%</div>
+    </div>
+    <p>Python</p>
+    <div class="container">
+      <div class="skills python">80%</div>
+    </div>
+    <p>C++</p>
+    <div class="container">
+      <div class="skills cpp">50%</div>
+    </div>
+    <p>C</p>
+    <div class="container">
+      <div class="skills c">50%</div>
+    </div>
+    <p>C#</p>
+    <div class="container">
+      <div class="skills csharp">50%</div>
+    </div>
+  </div>
+  </div>
+  </section>
 
 <!--Footer section-->
   <footer id="footer" class="page-footer">
@@ -184,7 +222,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-</body>
+  </body>
 </html>
 
 

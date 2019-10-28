@@ -25,3 +25,33 @@
 * {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
+
+/*skillbar*/
+.skillbar .container {
+	width: 100%; /* Full width */
+	padding-left: 50px
+  }
+  
+.skillbar p {
+	padding-left : 50px;
+	padding-top: 10px;
+  }
+
+.skillbar {
+	color: #229eb4;
+}
+
+.skills {
+	text-align: right; /* Right-align text */
+	padding-top: 5px; /* Add top padding */
+	padding-bottom: 10px; /* Add bottom padding */
+	color: white; /* White text color */
+  }
+  
+.html {width: 20%; background-color: #1ac1dd;}/*Caribbean Blue*/
+.css {width: 20%; background-color: #02d2f5;} 
+.python {width: 80%; background-color: #4bd3ea}
+.cpp {width: 50%; background-color: #00ffff} 
+.c {width: 50%; background-color: #2eb3ca}
+.csharp {width: 50%; background-color: #00ced1;}
+  
