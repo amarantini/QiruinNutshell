@@ -50,8 +50,10 @@
   
 .html {width: 20%; background-color: #1ac1dd;}/*Caribbean Blue*/
 .css {width: 20%; background-color: #02d2f5;} 
-.python {width: 80%; background-color: #4bd3ea}
+.python {width: 70%; background-color: #4bd3ea}
 .cpp {width: 50%; background-color: #00ffff} 
 .c {width: 50%; background-color: #2eb3ca}
 .csharp {width: 50%; background-color: #00ced1;}
+.unity {width: 60%; background-color: #01bbbe;}
+.ue4 {width: 40%; background-color: #007f81;}
   
