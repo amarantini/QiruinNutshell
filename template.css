@@ -1,0 +1,27 @@
+.banner {
+	height : 100vh;
+	background-color: #7395AE;
+}
+
+.title-section {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	color: aquamarine;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 125%;
+	font-weight: bold;
+}
+
+.about-section {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#experience {
+	background-color: #159ab1;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+* {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
